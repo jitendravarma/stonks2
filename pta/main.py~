@@ -1,0 +1,8 @@
+from vreport import GenerateVolitalityReport
+from archive import GenerateEQArchive
+
+
+
+if __name__ == '__main__':
+    GenerateVolitalityReport()
+    GenerateEQArchive()
