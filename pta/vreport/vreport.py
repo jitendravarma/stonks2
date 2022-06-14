@@ -61,6 +61,8 @@ class GenerateVolitalityReport(object):
                 continue
 
     def save_report(self):
+        cwd = os.getcwd()
+        path = cwd + "/reports"
         data = self.data.set_index(['SYMBOL'])
         data = data.iloc[:, pd.to_datetime(
             data.columns, format="%d-%b-%Y").argsort()].reset_index()
@@ -68,7 +70,8 @@ class GenerateVolitalityReport(object):
         data['V AVERAGE'] = data.drop('SYMBOL', axis=1).apply(
             lambda x: x.mean(), axis=1).round(3)
         data = data.sort_values(by=["V AVERAGE"],  ascending=False)
-        data.to_csv(f'{datetime.now().strftime("%b-%d-%Y")}-vreport.csv')
+        data.to_csv(
+            f'{path}/{datetime.now().strftime("%b-%d-%Y")}-vreport.csv')
         print("Volitality report generated ====> Done\n")
 
     def get_working_dates(self):

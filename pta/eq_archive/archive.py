@@ -60,7 +60,10 @@ class GenerateEQArchive(object):
         data = self.data.reset_index().set_index(['SYMBOL'])
         data['%Deliverble'] = data['%Deliverble'].astype(float) * 100
         data = data.sort_values(by=["Descripency", "SYMBOL"],  ascending=False)
-        data.to_csv(f'{datetime.now().strftime("%b-%d-%Y")}-archive.csv')
+        cwd = os.getcwd()
+        path = cwd + "/reports"
+        data.to_csv(
+            f'{path}/{datetime.now().strftime("%b-%d-%Y")}-archive.csv')
         print("Equity archive generated ====> Done\n")
 
     def get_working_dates(self):

@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 import pandas as pd
@@ -28,16 +29,23 @@ class MergeReports(object):
         # return ['background-color: yellow' if is_max.any() else '' for v in is_max]
 
     def merge(self):
-        vreport_csv = pd.read_csv(f'{datetime.now().strftime("%b-%d-%Y")}-vreport.csv')
-        archive_csv = pd.read_csv(f'{datetime.now().strftime("%b-%d-%Y")}-archive.csv')
+        cwd = os.getcwd()
+        path = cwd + "/reports"
+        vreport_csv = pd.read_csv(
+            f'{path}/{datetime.now().strftime("%b-%d-%Y")}-vreport.csv')
+        archive_csv = pd.read_csv(
+            f'{path}/{datetime.now().strftime("%b-%d-%Y")}-archive.csv')
 
-        final_report = archive_csv.merge(vreport_csv[['V AVERAGE', 'SYMBOL']], on='SYMBOL', how='left')
-        final_report = final_report.sort_values(by=["Descripency", "V AVERAGE"],  ascending=False)
+        final_report = archive_csv.merge(
+            vreport_csv[['V AVERAGE', 'SYMBOL']], on='SYMBOL', how='left')
+        final_report = final_report.sort_values(
+            by=["Descripency", "V AVERAGE"],  ascending=False)
         # final_report.style.apply(lambda x: ['background: lightgreen' if x.name in [2, 4]
         #                                     else '' for i in x],
         #                          axis=1)
         final_report.style.apply(self.highlight_greaterthan, axis=1)
-        final_report.to_csv(f'{datetime.now().strftime("%b-%d-%Y")}-final.csv')
+        final_report.to_csv(
+            f'{path}/{datetime.now().strftime("%b-%d-%Y")}-final.csv')
         print("Done merging")
 
 
