@@ -65,9 +65,9 @@ def check_ohol(df):
     first = df.iloc[0]
     second = df.iloc[1]
     if first['o'] <= first['l'] and second['l'] >= first['o']:
-        return True, f"OL watch above {second['c']}"
+        return True, f"OL watch above {second['c']} sl {second['l']}"
     if first['o'] >= first['h'] and second['h'] <= first['o']:
-        return True, f"OH watch below {second['c']}"
+        return True, f"OH watch below {second['c']} sl {second['h']}"
     return False, None
 
 

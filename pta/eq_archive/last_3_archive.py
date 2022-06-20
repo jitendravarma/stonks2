@@ -37,15 +37,18 @@ class GenerateEQArchive(object):
         df['Descripency Detail'] = detail
         df['Descripency'] = descripency
         price_flow = 0
+        status = False
         if df['Last'][2] > df['Last'][1] > df['Last'][0] and \
                 df['Deliverable Volume'][2] < df['Deliverable Volume'][1] < df['Deliverable Volume'][0]:
             price_flow = "Price increasing with decreasing volume"
+            status = True
         if df['Last'][2] < df['Last'][1] < df['Last'][0] and \
-                df['Deliverable Volume'][2] > df['Deliverable Volume'][1] > df['Deliverable Volume'][0]:
-            price_flow = "Price decreasing with increasing volume"
+                df['Deliverable Volume'][2] < df['Deliverable Volume'][1] < df['Deliverable Volume'][0]:
+            price_flow = "Price decreasing with decreasing volume"
+            status = True
         df['3 day price'] = price_flow
         df = df.drop(columns=['Close', 'VWAP', 'Turnover', 'Trades'])
-        return df
+        return status, df
 
     def get_report(self):
         start_date, end_date = self.get_working_dates()
@@ -55,7 +58,9 @@ class GenerateEQArchive(object):
         for index, scrip in enumerate(nifty_100):
             try:
                 df = self.get_scrip_history(scrip, start_date, end_date)
-                df = self.check_diff(df)
+                status, df = self.check_diff(df)
+                if not status:
+                    continue
                 if index == 1:
                     self.data = df
                 if index != 1:
