@@ -1,0 +1,1 @@
+from .vreport import GenerateVolitalityReport
