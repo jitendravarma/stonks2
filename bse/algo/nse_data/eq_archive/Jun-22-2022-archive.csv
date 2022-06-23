@@ -1,0 +1,4 @@
+SYMBOL,Date,Series,Prev Close,Open,High,Low,Last,Volume,Deliverable Volume,%Deliverble,Descripency Detail,Descripency,3 day price
+PAYTM,2022-06-20,EQ,630.15,642.0,654.0,619.55,639.0,4794450,638543,13.320000000000002,-,0,Price decreasing with decreasing volume
+PAYTM,2022-06-21,EQ,644.35,655.0,659.0,631.75,635.5,2866888,434532,15.160000000000002,-,0,Price decreasing with decreasing volume
+PAYTM,2022-06-22,EQ,638.5,639.0,639.0,618.2,620.25,1386867,263122,18.97,-,0,Price decreasing with decreasing volume

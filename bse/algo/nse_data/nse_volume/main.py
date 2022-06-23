@@ -1,32 +1,36 @@
 import requests
 
 cookies = {
-    'NSE-TEST-1': '1910513674.20480.0000',
-    'bm_mi': '840F1540E73DB3EC4DB1180BAFCA49DA~2M7075nh1L9e8jhbIlxicw8GhE9GVdPWr3FIcqnYO4PxoppFN43B0q5c1WUy1dDDKFRSHfTt2VW9QlBzCLwFz0mg0zd0jLd332OSeURO0Fx2YPwKk96wvWMZ7JZ5SmD21p+DtQ+NTHvFB3le7ZVMR/im+JlDFlAOAbqOk7Vo+BB0Agubr5h5IU67qZ4FrIF6L+cgPUZY9Co2a0vhNni+kYkkJOvVH9gZ6Ou5CfyvP0Z5cxYEMZdk78FGVsi0HGjnIlaPXxU9uotHyfLzwsiB+FEoea81XZaGFf0JpM6rBtVoi0DTG8jnjFxL+IWL8OkM',
-    'bm_sv': '577F823AFBEA3FACA7CB64579AFA2E2C~1u7FKmdHwxej0Sj2+mmGrgkXK4VboNnzgZT5LlFDUYBN/ZzkMWAyBrNYXUnb9KGsMIPtgyNlL3Y7GEmsS7d/CU/taAiw/ZOnGcd65+gTs0GB9X5zb0q6gz4NMtWh6lcajoRAlNj4V304YKpJH4oVofL1BT1hLMHBQaTpwoyIuxg=',
-    'ak_bmsc': '1BD3544B4D2F7226DA4DA7C2307CACBC~000000000000000000000000000000~YAAQtP7UF2d/5AKAAQAAO4+IHg8uUACu0/0k/MRTuEgsf/sReRoqElVs8N+KnQ+FzFOOkrUZgBuMGAS5jnrt9pN/inM/Iyb7lLK9tqpeQtx39GXyoNp2CUprmZVhXZ9gP2JImE9QHhH9zyBbk0iBGkjti9to8ZyYzbU5DUpbUqqmn6DkjS+fw2ij1wts8z1pxRqtzWzwpzdNlIQotEyAWUG8sLc/q0xdZ1aYmP6eHwUgqHPYyKks3QWe8z23ILQnlvweGdOOoo7t/jF3YSgQQNOV27iEDKpUFO7iycXeBpVOObIQs1Xx8RtaG6kHvtVXsqR11+0rlaZuG8g85K2UbXTk0GM3KBa3IZXlgbdqEHgS1zShC3k75cbW5HejoKBuwywFWHUbeZrCHcQO+WvYimMNtumnUgk7xueCeksb4J/G9gl7nKLjlu7v2R331AvwEowRPGJr85/V+I/CogpXKLXLPtMxcrylMAyAjB8UVmJIFRcQ',
+    'NSE-TEST-1': '1960845322.20480.0000',
+    'JSESSIONID': 'B8104DC1B1C874A9A892F6300BC833EE.tomcat2',
+    'bm_mi': '3A0CE1C67D60D28314C084FD3D085027~YAAQ1SdzaKhz23OBAQAASZVWhxBlUFB4NWcV+F2wPZV8klRXlLStgC5Nguu/H5sraR4xW7sgmidTtYv8q28S8HwegfCsnWjR89av49oWB34EQiLjvlyEfOrQMM5MNbYKpHFC6JxvRgJM29eJCiCuhcEZcCbwU8nij9yugljr/L8sQpV7rfibeAWu1ATLOPplQg68GNbdaLxc0mCvE9vGCegG06raOwQ9YYsFlVbgeoa95Q9osJGxSgau+eUWoVB27SEanIRStjIvDD3DQyvkTpZvIVRx6wQLvdAbCO3kpYYn2R7wPSdtD7Ifi/VN8l26kprJ8MlIryzMsnNqPpAenyaeO/jYBpgN~1',
+    'ak_bmsc': '0FCF9489714EC53DCE3DC9EA674BBE74~000000000000000000000000000000~YAAQ1SdzaLxz23OBAQAA4JdWhxDjHifT+bAZW6rYRZgz2gJPduvg3FYs1vAMRWAcVexV5OTN1EKLYok6CgrXNFJjh2ew5eymYCje4v+a4upirH9sQzCtYl4m+04/aIBIfih/FvmV8g4ouXWlCBNco2u009L1vnPUwEz+P+/JZpjJ+Urzq77EaSrWphuriwyRM5on6os53xRpFb2sJy7lrx2ekHPxYNDE6PnpP1jW8X3IRJcFtbmn+1CX71CliwVQddHzc5r7VgwL6pnENu9q5g1O/mIUypWaOXoZEa7JJL5+eAXf+l+O06qANmWgpFQ/JXnFSOea5uD8SwmgbDLBI1IRh5s2dFLS9+/CyFyBqIV4WK7CwAahIoBX/D5negHCgB25n+11s3ihEAdPbrRcL1EWB/1Bc6kpZJmpNRscUFtfn6Vo2p9hZjGPDSK877QHkN7FKA2ibKvZ7XdQyDnkr7xafdzc/LKit7INZzNO2Z8lKpKM63au5OsyUo2YqMRAQp0C5LKcrIUuCo7WETAtje76c0s=',
+    'bm_sv': '8CC80EE865DC2D437E46C639F0B9FC04~YAAQ1SdzaEWh23OBAQAAzC1bhxA9mVoYaY40/hhf7y16OMsQsFuNCl8/YtNkw/cEpgfOGYJ7roSqcy1Gb0IDpDu/Y+h2f4QTj/HCYjh2ItYlNOQx4oVOqlzbjMvDQ91nhN2rn2Gr3xqMbRhrQpQM+56buUjiGdcAnCSp2l0gI/kaODxbueSDGUFEWY7hWi/3pvknt8wPlAIL5kCVhiOJaQgS0cTWw2tuztwqnGwd7U9oaJsQqfsqhk8DVRaHtat9bE/b~1',
 }
 
 headers = {
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'Accept-Language': 'en-GB;q=0.7',
+    'Cache-Control': 'max-age=0',
     'Connection': 'keep-alive',
-    'Accept': '*/*',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Safari/537.36',
-    'X-Requested-With': 'XMLHttpRequest',
-    'Sec-GPC': '1',
-    'Sec-Fetch-Site': 'same-origin',
-    'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Dest': 'empty',
-    'Referer': 'https://www1.nseindia.com/products/content/equities/indices/historical_index_data.htm',
-    'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
     # Requests sorts cookies= alphabetically
-    # 'Cookie': 'NSE-TEST-1=1910513674.20480.0000; bm_mi=840F1540E73DB3EC4DB1180BAFCA49DA~2M7075nh1L9e8jhbIlxicw8GhE9GVdPWr3FIcqnYO4PxoppFN43B0q5c1WUy1dDDKFRSHfTt2VW9QlBzCLwFz0mg0zd0jLd332OSeURO0Fx2YPwKk96wvWMZ7JZ5SmD21p+DtQ+NTHvFB3le7ZVMR/im+JlDFlAOAbqOk7Vo+BB0Agubr5h5IU67qZ4FrIF6L+cgPUZY9Co2a0vhNni+kYkkJOvVH9gZ6Ou5CfyvP0Z5cxYEMZdk78FGVsi0HGjnIlaPXxU9uotHyfLzwsiB+FEoea81XZaGFf0JpM6rBtVoi0DTG8jnjFxL+IWL8OkM; bm_sv=577F823AFBEA3FACA7CB64579AFA2E2C~1u7FKmdHwxej0Sj2+mmGrgkXK4VboNnzgZT5LlFDUYBN/ZzkMWAyBrNYXUnb9KGsMIPtgyNlL3Y7GEmsS7d/CU/taAiw/ZOnGcd65+gTs0GB9X5zb0q6gz4NMtWh6lcajoRAlNj4V304YKpJH4oVofL1BT1hLMHBQaTpwoyIuxg=; ak_bmsc=1BD3544B4D2F7226DA4DA7C2307CACBC~000000000000000000000000000000~YAAQtP7UF2d/5AKAAQAAO4+IHg8uUACu0/0k/MRTuEgsf/sReRoqElVs8N+KnQ+FzFOOkrUZgBuMGAS5jnrt9pN/inM/Iyb7lLK9tqpeQtx39GXyoNp2CUprmZVhXZ9gP2JImE9QHhH9zyBbk0iBGkjti9to8ZyYzbU5DUpbUqqmn6DkjS+fw2ij1wts8z1pxRqtzWzwpzdNlIQotEyAWUG8sLc/q0xdZ1aYmP6eHwUgqHPYyKks3QWe8z23ILQnlvweGdOOoo7t/jF3YSgQQNOV27iEDKpUFO7iycXeBpVOObIQs1Xx8RtaG6kHvtVXsqR11+0rlaZuG8g85K2UbXTk0GM3KBa3IZXlgbdqEHgS1zShC3k75cbW5HejoKBuwywFWHUbeZrCHcQO+WvYimMNtumnUgk7xueCeksb4J/G9gl7nKLjlu7v2R331AvwEowRPGJr85/V+I/CogpXKLXLPtMxcrylMAyAjB8UVmJIFRcQ',
+    # 'Cookie': 'NSE-TEST-1=1960845322.20480.0000; JSESSIONID=B8104DC1B1C874A9A892F6300BC833EE.tomcat2; bm_mi=3A0CE1C67D60D28314C084FD3D085027~YAAQ1SdzaKhz23OBAQAASZVWhxBlUFB4NWcV+F2wPZV8klRXlLStgC5Nguu/H5sraR4xW7sgmidTtYv8q28S8HwegfCsnWjR89av49oWB34EQiLjvlyEfOrQMM5MNbYKpHFC6JxvRgJM29eJCiCuhcEZcCbwU8nij9yugljr/L8sQpV7rfibeAWu1ATLOPplQg68GNbdaLxc0mCvE9vGCegG06raOwQ9YYsFlVbgeoa95Q9osJGxSgau+eUWoVB27SEanIRStjIvDD3DQyvkTpZvIVRx6wQLvdAbCO3kpYYn2R7wPSdtD7Ifi/VN8l26kprJ8MlIryzMsnNqPpAenyaeO/jYBpgN~1; ak_bmsc=0FCF9489714EC53DCE3DC9EA674BBE74~000000000000000000000000000000~YAAQ1SdzaLxz23OBAQAA4JdWhxDjHifT+bAZW6rYRZgz2gJPduvg3FYs1vAMRWAcVexV5OTN1EKLYok6CgrXNFJjh2ew5eymYCje4v+a4upirH9sQzCtYl4m+04/aIBIfih/FvmV8g4ouXWlCBNco2u009L1vnPUwEz+P+/JZpjJ+Urzq77EaSrWphuriwyRM5on6os53xRpFb2sJy7lrx2ekHPxYNDE6PnpP1jW8X3IRJcFtbmn+1CX71CliwVQddHzc5r7VgwL6pnENu9q5g1O/mIUypWaOXoZEa7JJL5+eAXf+l+O06qANmWgpFQ/JXnFSOea5uD8SwmgbDLBI1IRh5s2dFLS9+/CyFyBqIV4WK7CwAahIoBX/D5negHCgB25n+11s3ihEAdPbrRcL1EWB/1Bc6kpZJmpNRscUFtfn6Vo2p9hZjGPDSK877QHkN7FKA2ibKvZ7XdQyDnkr7xafdzc/LKit7INZzNO2Z8lKpKM63au5OsyUo2YqMRAQp0C5LKcrIUuCo7WETAtje76c0s=; bm_sv=8CC80EE865DC2D437E46C639F0B9FC04~YAAQ1SdzaEWh23OBAQAAzC1bhxA9mVoYaY40/hhf7y16OMsQsFuNCl8/YtNkw/cEpgfOGYJ7roSqcy1Gb0IDpDu/Y+h2f4QTj/HCYjh2ItYlNOQx4oVOqlzbjMvDQ91nhN2rn2Gr3xqMbRhrQpQM+56buUjiGdcAnCSp2l0gI/kaODxbueSDGUFEWY7hWi/3pvknt8wPlAIL5kCVhiOJaQgS0cTWw2tuztwqnGwd7U9oaJsQqfsqhk8DVRaHtat9bE/b~1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
+    'Sec-GPC': '1',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36',
 }
 
 params = {
     'indexType': 'NIFTY 50',
-    'fromDate': '04-04-2022',
-    'toDate': '12-04-2022',
+    'fromDate': '14-06-2022',
+    'toDate': '22-06-2022',
 }
 
 response = requests.get('https://www1.nseindia.com/products/dynaContent/equities/indices/historicalindices.jsp',
-                        headers=headers, params=params, cookies=cookies)
+                        params=params, cookies=cookies, headers=headers)
+
+print(response.text)

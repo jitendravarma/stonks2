@@ -1,4 +1,4 @@
-ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuZnllcnMuaW4iLCJpYXQiOjE2NTU3ODM3NTAsImV4cCI6MTY1NTg1Nzg1MCwibmJmIjoxNjU1NzgzNzUwLCJhdWQiOlsieDowIiwieDoxIiwieDoyIiwiZDoxIiwiZDoyIiwieDoxIiwieDowIl0sInN1YiI6ImFjY2Vzc190b2tlbiIsImF0X2hhc2giOiJnQUFBQUFCaXNVRkc3dzVGV2NDMXJ5ZVRMTncxNnl1c1dySS1Ga2dhc3N5VkFZeW1pS1V5UmhGUkxJdjRpYk9xaHpqcnVOS0pjdnBZQXEyX3Rkam5nOElMSDlVdzVEWmIyeTRFMDZfaWl1TXdiYzdBQ2hxdGVuQT0iLCJkaXNwbGF5X25hbWUiOiJBS0FOS1NIQSBBTklSVURIQSBWQVJNQSIsImZ5X2lkIjoiWEEwMDI5OCIsImFwcFR5cGUiOjEwMCwicG9hX2ZsYWciOiJOIn0.TKU1jtXcPKIAjDBYf-ImEB1GAbpb-sY6XyLZRKuxCtY"
+ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuZnllcnMuaW4iLCJpYXQiOjE2NTU5NTYwNTAsImV4cCI6MTY1NjAzMDYzMCwibmJmIjoxNjU1OTU2MDUwLCJhdWQiOlsieDowIiwieDoxIiwieDoyIiwiZDoxIiwiZDoyIiwieDoxIiwieDowIl0sInN1YiI6ImFjY2Vzc190b2tlbiIsImF0X2hhc2giOiJnQUFBQUFCaXMtSlNDWWswZ0VOYW9PdXNVcTNoSGRfc0MwUUFkaGUxWjVOR29kLUxLVzBqMnlFX2NwVi1Uci1MT1NLd2tYalduTmh5R2YxVHNPNTNHbDZMdTdVV2tORnp3d0NoUlJpMFp6SGhrUUgyWlhtY0ZkZz0iLCJkaXNwbGF5X25hbWUiOiJBS0FOS1NIQSBBTklSVURIQSBWQVJNQSIsImZ5X2lkIjoiWEEwMDI5OCIsImFwcFR5cGUiOjEwMCwicG9hX2ZsYWciOiJOIn0.7Vf15aoJpyvZrQi3ELhEKOouoOeVQ6T8J3CpUG8obj4"
 
 
 VSCRIPS = [
@@ -15,7 +15,6 @@ VSCRIPS = [
     {'name': 'BANDHANBNK', 'atr': 2.17, 'price': 336.0},
     {'name': 'AXISBANK', 'atr': 3.79, 'price': 777.55},
     {'name': 'GRASIM', 'atr': 8.18, 'price': 1713.3},
-    {'name': 'SAIL', 'atr': 0.55, 'price': 97.95},
     {'name': 'TECHM', 'atr': 5.93, 'price': 1271.55},
     {'name': 'HINDALCO', 'atr': 3.01, 'price': 489.0},
     {'name': 'UPL', 'atr': 3.74, 'price': 826.05},
@@ -27,7 +26,6 @@ VSCRIPS = [
     {'name': 'JINDALSTEL', 'atr': 3.5, 'price': 547.0},
     {'name': 'BIOCON', 'atr': 2.27, 'price': 375.45},
     {'name': 'BPCL', 'atr': 1.66, 'price': 367.75},
-    {'name': 'INDIGO', 'atr': 10.09, 'price': 1860.0},
     {'name': 'CIPLA', 'atr': 4.4, 'price': 980.1},
     {'name': 'TATASTEEL', 'atr': 6.91, 'price': 1258.7},
     {'name': 'HDFC', 'atr': 10.66, 'price': 2222.0},
@@ -36,7 +34,6 @@ VSCRIPS = [
     {'name': 'SBIN', 'atr': 2.0, 'price': 507.7},
     {'name': 'ADANIPORTS', 'atr': 5.44, 'price': 890.75},
     {'name': 'MARICO', 'atr': 2.39, 'price': 537.4},
-    {'name': 'DLF', 'atr': 2.15, 'price': 379.0},
     {'name': 'M&M', 'atr': 4.19, 'price': 922.0},
     {'name': 'WIPRO', 'atr': 2.02, 'price': 522.5}
 ]

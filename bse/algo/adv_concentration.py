@@ -64,14 +64,14 @@ def check_ohol(df):
 
     first = df.iloc[0]
     second = df.iloc[1]
-    if first['o'] <= first['l'] and second['l'] >= first['o']:
+    if first['o'] <= first['l'] and second['c'] >= first['c']:
         return True, f"OL watch above {second['c']} sl {second['l']} =====> O=L"
-    if first['o'] >= first['h'] and second['h'] <= first['o']:
-        return True, f"OH watch below {second['c']} sl {second['h']} =====> O=H"
-    if first['l'] < second['l']:
-        return True, f"OL watch above {second['c']} sl {second['l']}"
-    if first['h'] < second['h']:
-        return True, f"OH watch below {second['c']} sl {second['h']}"
+    if first['o'] >= first['h'] and second['c'] <= first['c']:
+        return True, f"OH watch below {second['c']} sl {second['c']} =====> O=H"
+    if first['l'] < second['l'] and second['c'] >= first['h']:
+        return True, f"OL watch above {second['c']} sl {second['c']}"
+    if first['h'] > second['h'] and second['c'] <= first['l']:
+        return True, f"OH watch below {second['c']} sl {second['c']}"
     return False, None
 
 
