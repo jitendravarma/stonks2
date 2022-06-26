@@ -1,0 +1,102 @@
+
+1656253272573 :: history :: {'symbol': 'HINDALCO', 'resolution': {15}, 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253272656 :: {'s': 'error', 'code': -300, 'message': 'Please provide a valid symbol'}
+
+1656253282699 :: history :: {'symbol': 'HINDALCO', 'resolution': {15}, 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253282772 :: {'s': 'error', 'code': -300, 'message': 'Please provide a valid symbol'}
+
+1656253299595 :: history :: {'symbol': 'HINDALCO', 'resolution': {15}, 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253299660 :: {'s': 'error', 'code': -300, 'message': 'Please provide a valid symbol'}
+
+1656253309700 :: history :: {'symbol': 'HINDALCO', 'resolution': {15}, 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253309774 :: {'s': 'error', 'code': -300, 'message': 'Please provide a valid symbol'}
+
+1656253467410 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': {15}, 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253471414 :: {'s': 'error', 'code': -301, 'message': 'Please provide valid resolution format'}
+
+1656253630427 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253630721 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656063900}
+
+1656253640778 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253641194 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656063900}
+
+1656253651238 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253651847 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656063900}
+
+1656253661897 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253662810 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656063900}
+
+1656253672865 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253673961 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656063900}
+
+1656253721397 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-23', 'range_to': '2022-06-23', 'cont_flag': '1'} :: 1656253721715 :: {'s': 'ok', 'candles': [[1655955900, 317.0, 320.9, 315.5, 317.65, 1435183], [1655956800, 317.5, 320.45, 317.5, 320.05, 713452], [1655957700, 320.1, 322.3, 320.05, 322.1, 735914], [1655958600, 322.1, 324.3, 321.6, 324.2, 738550], [1655959500, 324.2, 325.5, 323.25, 325.15, 735577], [1655960400, 324.95, 325.45, 324.15, 325.05, 714877], [1655961300, 325.0, 326.8, 324.95, 325.65, 604959], [1655962200, 325.75, 327.65, 325.4, 326.0, 567360], [1655963100, 326.0, 326.25, 325.0, 325.15, 428745], [1655964000, 325.15, 325.25, 321.75, 321.85, 835399], [1655964900, 321.85, 321.85, 318.8, 319.4, 1089012], [1655965800, 319.3, 320.75, 318.65, 319.9, 517331], [1655966700, 319.9, 320.3, 315.7, 316.35, 909848], [1655967600, 316.35, 317.35, 315.0, 315.05, 544277], [1655968500, 315.15, 315.45, 313.7, 314.15, 802595], [1655969400, 314.1, 314.5, 311.85, 312.6, 672544], [1655970300, 312.5, 313.2, 311.45, 311.5, 461158], [1655971200, 311.55, 317.2, 311.1, 316.75, 1139176], [1655972100, 316.85, 317.85, 316.2, 317.0, 586962], [1655973000, 317.05, 317.15, 313.6, 313.6, 809594], [1655973900, 313.7, 314.8, 312.2, 313.65, 566279], [1655974800, 313.65, 316.0, 313.3, 315.9, 599199], [1655975700, 316.0, 316.95, 315.1, 316.6, 646850], [1655976600, 316.6, 318.6, 316.2, 318.6, 960266], [1655977500, 318.6, 319.35, 316.8, 318.0, 902149]]}
+
+1656253731781 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-23', 'range_to': '2022-06-23', 'cont_flag': '1'} :: 1656253731885 :: {'s': 'ok', 'candles': [[1655955900, 317.0, 320.9, 315.5, 317.65, 1435183], [1655956800, 317.5, 320.45, 317.5, 320.05, 713452], [1655957700, 320.1, 322.3, 320.05, 322.1, 735914], [1655958600, 322.1, 324.3, 321.6, 324.2, 738550], [1655959500, 324.2, 325.5, 323.25, 325.15, 735577], [1655960400, 324.95, 325.45, 324.15, 325.05, 714877], [1655961300, 325.0, 326.8, 324.95, 325.65, 604959], [1655962200, 325.75, 327.65, 325.4, 326.0, 567360], [1655963100, 326.0, 326.25, 325.0, 325.15, 428745], [1655964000, 325.15, 325.25, 321.75, 321.85, 835399], [1655964900, 321.85, 321.85, 318.8, 319.4, 1089012], [1655965800, 319.3, 320.75, 318.65, 319.9, 517331], [1655966700, 319.9, 320.3, 315.7, 316.35, 909848], [1655967600, 316.35, 317.35, 315.0, 315.05, 544277], [1655968500, 315.15, 315.45, 313.7, 314.15, 802595], [1655969400, 314.1, 314.5, 311.85, 312.6, 672544], [1655970300, 312.5, 313.2, 311.45, 311.5, 461158], [1655971200, 311.55, 317.2, 311.1, 316.75, 1139176], [1655972100, 316.85, 317.85, 316.2, 317.0, 586962], [1655973000, 317.05, 317.15, 313.6, 313.6, 809594], [1655973900, 313.7, 314.8, 312.2, 313.65, 566279], [1655974800, 313.65, 316.0, 313.3, 315.9, 599199], [1655975700, 316.0, 316.95, 315.1, 316.6, 646850], [1655976600, 316.6, 318.6, 316.2, 318.6, 960266], [1655977500, 318.6, 319.35, 316.8, 318.0, 902149]]}
+
+1656253741952 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '15', 'date_format': '1', 'range_from': '2022-06-23', 'range_to': '2022-06-23', 'cont_flag': '1'} :: 1656253742571 :: {'s': 'ok', 'candles': [[1655955900, 317.0, 320.9, 315.5, 317.65, 1435183], [1655956800, 317.5, 320.45, 317.5, 320.05, 713452], [1655957700, 320.1, 322.3, 320.05, 322.1, 735914], [1655958600, 322.1, 324.3, 321.6, 324.2, 738550], [1655959500, 324.2, 325.5, 323.25, 325.15, 735577], [1655960400, 324.95, 325.45, 324.15, 325.05, 714877], [1655961300, 325.0, 326.8, 324.95, 325.65, 604959], [1655962200, 325.75, 327.65, 325.4, 326.0, 567360], [1655963100, 326.0, 326.25, 325.0, 325.15, 428745], [1655964000, 325.15, 325.25, 321.75, 321.85, 835399], [1655964900, 321.85, 321.85, 318.8, 319.4, 1089012], [1655965800, 319.3, 320.75, 318.65, 319.9, 517331], [1655966700, 319.9, 320.3, 315.7, 316.35, 909848], [1655967600, 316.35, 317.35, 315.0, 315.05, 544277], [1655968500, 315.15, 315.45, 313.7, 314.15, 802595], [1655969400, 314.1, 314.5, 311.85, 312.6, 672544], [1655970300, 312.5, 313.2, 311.45, 311.5, 461158], [1655971200, 311.55, 317.2, 311.1, 316.75, 1139176], [1655972100, 316.85, 317.85, 316.2, 317.0, 586962], [1655973000, 317.05, 317.15, 313.6, 313.6, 809594], [1655973900, 313.7, 314.8, 312.2, 313.65, 566279], [1655974800, 313.65, 316.0, 313.3, 315.9, 599199], [1655975700, 316.0, 316.95, 315.1, 316.6, 646850], [1655976600, 316.6, 318.6, 316.2, 318.6, 960266], [1655977500, 318.6, 319.35, 316.8, 318.0, 902149]]}
+
+1656253888473 :: history :: {'symbol': 'NSE:SUNPHARMA-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253888580 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253888893 :: history :: {'symbol': 'NSE:POWERGRID-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253889214 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253889526 :: history :: {'symbol': 'NSE:ITC-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253889929 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253890242 :: history :: {'symbol': 'NSE:KOTAKBANK-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253890651 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253890963 :: history :: {'symbol': 'NSE:BHARTIARTL-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253891470 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253891781 :: history :: {'symbol': 'NSE:HCLTECH-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253892091 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253892403 :: history :: {'symbol': 'NSE:TITAN-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253892800 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253893112 :: history :: {'symbol': 'NSE:ICICIBANK-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253893238 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253893550 :: history :: {'symbol': 'NSE:ONGC-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253893880 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253894192 :: history :: {'symbol': 'NSE:CHOLAFIN-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253894332 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253894642 :: history :: {'symbol': 'NSE:BANDHANBNK-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253894903 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253895216 :: history :: {'symbol': 'NSE:AXISBANK-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253896520 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253896832 :: history :: {'symbol': 'NSE:GRASIM-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253898636 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253898948 :: history :: {'symbol': 'NSE:TECHM-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253899456 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253899768 :: history :: {'symbol': 'NSE:HINDALCO-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253900239 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253900551 :: history :: {'symbol': 'NSE:UPL-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253902152 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253902467 :: history :: {'symbol': 'NSE:INDUSINDBK-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253902795 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253903107 :: history :: {'symbol': 'NSE:LUPIN-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253903459 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253903776 :: history :: {'symbol': 'NSE:TATAMOTORS-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253904909 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253905227 :: history :: {'symbol': 'NSE:JINDALSTEL-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253906474 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253906791 :: history :: {'symbol': 'NSE:BIOCON-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253907852 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253908162 :: history :: {'symbol': 'NSE:BPCL-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253908877 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253909191 :: history :: {'symbol': 'NSE:CIPLA-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253911132 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253911444 :: history :: {'symbol': 'NSE:TATASTEEL-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253911843 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253912152 :: history :: {'symbol': 'NSE:HDFC-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253912671 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253912986 :: history :: {'symbol': 'NSE:BANKBARODA-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253913795 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253914105 :: history :: {'symbol': 'NSE:COALINDIA-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253914512 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253914824 :: history :: {'symbol': 'NSE:SBIN-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253914960 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253915272 :: history :: {'symbol': 'NSE:ADANIPORTS-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253915471 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253915787 :: history :: {'symbol': 'NSE:MARICO-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253915999 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253916316 :: history :: {'symbol': 'NSE:M&M-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253916447 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253916763 :: history :: {'symbol': 'NSE:WIPRO-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253917006 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253917313 :: history :: {'symbol': 'NSE:HDFCBANK-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253917511 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253917821 :: history :: {'symbol': 'NSE:INFY-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253918904 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253919221 :: history :: {'symbol': 'NSE:LT-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253919576 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253919890 :: history :: {'symbol': 'NSE:SBILIFE-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253920126 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253920443 :: history :: {'symbol': 'NSE:RELIANCE-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253920702 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}
+
+1656253921012 :: history :: {'symbol': 'NSE:HINDUNILVR-EQ', 'resolution': '10', 'date_format': '1', 'range_from': '2022-06-26', 'range_to': '2022-06-26', 'cont_flag': '1'} :: 1656253921409 :: {'s': 'no_data', 'candles': [], 'nextTime': 1656064500}

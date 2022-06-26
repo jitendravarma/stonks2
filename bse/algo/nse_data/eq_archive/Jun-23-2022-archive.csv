@@ -1,0 +1,10 @@
+SYMBOL,Date,Series,Prev Close,Open,High,Low,Last,Volume,Deliverable Volume,%Deliverble,Descripency Detail,Descripency,3 day price
+NTPC,2022-06-21,EQ,137.25,138.2,141.25,137.75,140.0,51398446,35645079,69.35,"Vol Up, Delivery Down",1,Price decreasing with decreasing volume
+NTPC,2022-06-22,EQ,139.95,139.95,139.95,136.55,137.7,8317317,2947205,35.43,"Vol Up, Delivery Down",1,Price decreasing with decreasing volume
+NTPC,2022-06-23,EQ,137.65,137.9,139.15,135.65,136.2,11257409,2835828,40.22,"Vol Up, Delivery Down",1,Price decreasing with decreasing volume
+VEDL,2022-06-21,EQ,230.45,236.45,243.65,227.0,237.5,51220904,15956329,31.15,-,0,Price decreasing with decreasing volume
+VEDL,2022-06-22,EQ,236.05,234.85,234.85,221.0,221.5,22944315,5761363,25.11,-,0,Price decreasing with decreasing volume
+VEDL,2022-06-23,EQ,222.1,221.05,226.0,216.1,219.5,20938353,4417475,27.43,-,0,Price decreasing with decreasing volume
+BANDHANBNK,2022-06-21,EQ,274.05,278.05,287.0,275.5,282.4,11745070,3165464,26.950000000000003,-,0,Price decreasing with decreasing volume
+BANDHANBNK,2022-06-22,EQ,282.05,282.8,284.55,276.05,281.1,5845692,1773863,30.34,-,0,Price decreasing with decreasing volume
+BANDHANBNK,2022-06-23,EQ,281.5,282.45,285.5,273.1,278.3,5632189,1286693,30.92,-,0,Price decreasing with decreasing volume
